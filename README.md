@@ -7,13 +7,13 @@ Download Zip file from Github link and Extract it.
 ### 2-Install Dependencies: For a Spring Boot project, you'll need Java installed. 
 
 ### 3-Build the Project
-mvn clean install
+``code`` mvn clean install
 
 ### 4-Run the Project:
 
 Open the project in any JAVA IDE and try to run it from there. Else use CLI command as - 
 
-java -jar your-project-name.jar (replace your-project-name with the application jar file)
+``code`` java -jar your-project-name.jar (replace your-project-name with the application jar file)
 
 
 ### 5-Configure Database Connection:
@@ -46,7 +46,7 @@ Open the application.properties or application.yml file in the src/main/resource
 	- /task?page={pageNo}&sort_by={sortBy}&sorting_order={sortingOrder}
 ## POST /task
 	if using POSTMAN give the request a body in the form of:
-	``code`` {
+	 {
 	    "name": "new task",
 	    "description": "this is your task 12",
 	    "task_priority_level": "HIGH",
@@ -55,7 +55,7 @@ Open the application.properties or application.yml file in the src/main/resource
 	}
 ## PUT /task/{taskId}
 	This API also expects a body. give it an object and write fields which you want to change.
-	``code`` {
+	{
         "name": "non-updated complete poc on email sending",
         "task_priority_level": "LOW",
         "task_status": "IN_PROGRESS"
