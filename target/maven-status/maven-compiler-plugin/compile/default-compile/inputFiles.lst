@@ -1,0 +1,14 @@
+/Users/akib/Desktop/Asif Projects/TaskBackend/src/main/java/com/taskservice/backend/jpa/ITaskDao.java
+/Users/akib/Desktop/Asif Projects/TaskBackend/src/main/java/com/taskservice/backend/enums/TaskStatus.java
+/Users/akib/Desktop/Asif Projects/TaskBackend/src/main/java/com/taskservice/backend/dtos/responses/TasksPaginatedResponse.java
+/Users/akib/Desktop/Asif Projects/TaskBackend/src/main/java/com/taskservice/backend/services/implementations/TaskService.java
+/Users/akib/Desktop/Asif Projects/TaskBackend/src/main/java/com/taskservice/backend/entity/Task.java
+/Users/akib/Desktop/Asif Projects/TaskBackend/src/main/java/com/taskservice/backend/enums/SortingOrder.java
+/Users/akib/Desktop/Asif Projects/TaskBackend/src/main/java/com/taskservice/backend/dtos/responses/TaskModel.java
+/Users/akib/Desktop/Asif Projects/TaskBackend/src/main/java/com/taskservice/backend/Main.java
+/Users/akib/Desktop/Asif Projects/TaskBackend/src/main/java/com/taskservice/backend/enums/TaskPriorityLevel.java
+/Users/akib/Desktop/Asif Projects/TaskBackend/src/main/java/com/taskservice/backend/enums/SortByAttribute.java
+/Users/akib/Desktop/Asif Projects/TaskBackend/src/main/java/com/taskservice/backend/dtos/requests/UpdateTaskRequest.java
+/Users/akib/Desktop/Asif Projects/TaskBackend/src/main/java/com/taskservice/backend/dtos/requests/TaskRequest.java
+/Users/akib/Desktop/Asif Projects/TaskBackend/src/main/java/com/taskservice/backend/controller/TaskController.java
+/Users/akib/Desktop/Asif Projects/TaskBackend/src/main/java/com/taskservice/backend/services/interfaces/ITaskService.java
