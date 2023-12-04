@@ -24,9 +24,9 @@ Open the application.properties or application.yml file in the src/main/resource
 #spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
 
 ## Create a table with the given schema - 
-+----------------+--------------+------+-----+---------+
+
 | Field          | Type         | Null | Key | Default | 
-+----------------+--------------+------+-----+---------+
+
 | id             | bigint       | NO   | PRI | NULL    |       
 | name           | varchar(255) | YES  |     | NULL    |       
 | status         | tinyint      | YES  |     | NULL    |       
@@ -35,7 +35,6 @@ Open the application.properties or application.yml file in the src/main/resource
 | due_date       | date         | YES  |     | NULL    |       
 | external_id    | varchar(255) | YES  |     | NULL    |       
 | active         | tinyint(1)   | YES  |     | NULL    |       
-+----------------+--------------+------+-----+---------+
 
 ## RESTful APIs: 
  All the dynamic values are represented by enclosed parenthesis.
